@@ -1,6 +1,56 @@
-<h1>
-  <div><img  src="../assets/Artelia_Logo.PNG"></div>
-  <h3>{{sMyWelcome}}</h3>
-<app-map></app-map>
-</h1>
+<my-navbar></my-navbar>
 
+<div class="container">
+  <my-header></my-header>
+  <div class="row">
+    <div class="col-md-12">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Cartographie géoréférencée</h3>
+        </div>
+        <div class="panel-body">
+          <app-map></app-map>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Etat de la chaussée</h3>
+        </div>
+        <div class="panel-body">
+          <bar-chart-demo></bar-chart-demo>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end row -->
+
+  <div class="row">
+    <div class="col-md-6">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Priorité des travaux</h3>
+        </div>
+        <div class="panel-body">
+          <line-chart-demo></line-chart-demo>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Classement hiérarchique du réseau 
+          </h3>
+        </div>
+        <div class="panel-body">
+          <doughnut-chart-demo></doughnut-chart-demo>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>

@@ -1,4 +1,6 @@
-import {Component} from "@angular/core";
+import { Component} from '@angular/core';
+
+import { Http, Response } from '@angular/http';
 
 
 @Component({
@@ -8,8 +10,6 @@ import {Component} from "@angular/core";
 })
 export class AppComponent {
 
-  title = 'app works!';
-  sMyWelcome:string = "Visualisation avec fond Google Map input data KML";
 
 }
 
