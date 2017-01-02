@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Troncons</name>
+		<Placemark>
+			<name>Troncon1</name>
+			<styleUrl>#line-F57C00-4-nodesc</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>5.6614137,45.2135591,0.0 5.6628191,45.206609,0.0 5.6635863,45.2057964,0.0 5.664804,45.2045831,0.0 5.665834,45.2035399,0.0 5.6705761,45.1988982,0.0 5.6719923,45.2000322,0.0 5.6735158,45.2003498,0.0 5.6740093,45.2006824,0.0 5.674417,45.2011813,0.0 5.6748354,45.2017408,0.0 5.6758118,45.2019524,0.0 5.6771636,45.2021187,0.0 5.678494,45.2015555,0.0 5.6792396,45.2016387,0.0 5.6793845,45.2015442,0.0 5.67954,45.2015971,0.0 5.6795561,45.2017256,0.0 5.6794435,45.2017823,0.0 5.6797117,45.2020809,0.0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Troncon2</name>
+			<styleUrl>#line-097138-5-nodesc</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>5.659005,45.2078864,0.0 5.659402,45.207792,0.0 5.6599492,45.2078486,0.0 5.6608772,45.208083,0.0 5.6627065,45.2086839,0.0 5.6633878,45.2089371,0.0 5.6640851,45.2094568,0.0 5.6651151,45.2105471,0.0 5.6655335,45.2107134,0.0 5.6658661,45.2106378,0.0 5.6671429,45.2095494,0.0 5.6673628,45.2093453,0.0 5.6673092,45.2091865,0.0 5.6674165,45.2090958,0.0 5.6675988,45.2090996,0.0 5.6677544,45.209213,0.0 5.6678241,45.2093604,0.0 5.6707209,45.2103128,0.0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Troncon3</name>
+			<styleUrl>#line-A52714-6-nodesc</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>5.6606573,45.2054222,0.0 5.6613654,45.2052975,0.0 5.6618375,45.205305,0.0 5.6623739,45.2052257,0.0 5.6635648,45.2048968,0.0 5.6644017,45.2048968,0.0 5.6650078,45.2049535,0.0 5.6660324,45.2049875,0.0 5.6666386,45.2049535,0.0 5.6675828,45.2049951,0.0 5.6686503,45.2049384,0.0 5.6693423,45.2050745,0.0 5.6702167,45.2053315,0.0 5.6710106,45.2050367,0.0 5.671488,45.2048742,0.0 5.6724644,45.2049044,0.0 5.6736928,45.2045756,0.0</coordinates>
+			</LineString>
+		</Placemark>
+		<Style id='line-097138-5-nodesc-normal'>
+			<LineStyle>
+				<color>ff387109</color>
+				<width>5</width>
+			</LineStyle>
+		</Style>
+		<Style id='line-097138-5-nodesc-highlight'>
+			<LineStyle>
+				<color>ff387109</color>
+				<width>8.0</width>
+			</LineStyle>
+		</Style>
+		<StyleMap id='line-097138-5-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-097138-5-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-097138-5-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-A52714-6-nodesc-normal'>
+			<LineStyle>
+				<color>ff1427A5</color>
+				<width>6</width>
+			</LineStyle>
+		</Style>
+		<Style id='line-A52714-6-nodesc-highlight'>
+			<LineStyle>
+				<color>ff1427A5</color>
+				<width>9.0</width>
+			</LineStyle>
+		</Style>
+		<StyleMap id='line-A52714-6-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-A52714-6-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-A52714-6-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-F57C00-4-nodesc-normal'>
+			<LineStyle>
+				<color>ff007CF5</color>
+				<width>4</width>
+			</LineStyle>
+		</Style>
+		<Style id='line-F57C00-4-nodesc-highlight'>
+			<LineStyle>
+				<color>ff007CF5</color>
+				<width>6.0</width>
+			</LineStyle>
+		</Style>
+		<StyleMap id='line-F57C00-4-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-F57C00-4-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-F57C00-4-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+	</Document>
+</kml>

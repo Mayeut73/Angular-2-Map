@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+<!-- Data derived from:
+       Ed Knittel - || tastypopsicle.com
+       Feel free to use this file for your own purposes.
+       Just leave the comments and credits when doing so.
+-->
+  <Document>
+    <name>Carte Etude Commune de Sassenage</name>
+    <description>Troncons de l'etude</description>
+
+    <Style id="blueLine">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="redLine">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="greenLine">
+      <LineStyle>
+        <color>ff009900</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="orangeLine">
+      <LineStyle>
+        <color>ff00ccff</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="pinkLine">
+      <LineStyle>
+        <color>ffff33ff</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="brownLine">
+      <LineStyle>
+        <color>ff66a1cc</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="purpleLine">
+      <LineStyle>
+        <color>ffcc00cc</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="yellowLine">
+      <LineStyle>
+        <color>ff61f2f2</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+
+    <Placemark>
+      <name>Troncon 1</name>
+      <styleUrl>#blueLine</styleUrl>
+      <LineString>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>
+		
+		5.6614137,45.2135591,0.0 
+		5.6628191,45.206609,0.0 
+		5.6635863,45.2057964,0.0 
+		5.664804,45.2045831,0.0 
+		5.665834,45.2035399,0.0 
+		5.6705761,45.1988982,0.0 
+		5.6719923,45.2000322,0.0 
+		5.6735158,45.2003498,0.0 
+		5.6740093,45.2006824,0.0 
+		5.674417,45.2011813,0.0 
+		5.6748354,45.2017408,0.0 
+		5.6758118,45.2019524,0.0 
+		5.6771636,45.2021187,0.0 
+		5.678494,45.2015555,0.0 
+		5.6792396,45.2016387,0.0 
+		5.6793845,45.2015442,0.0 
+		5.67954,45.2015971,0.0 
+		5.6795561,45.2017256,0.0 
+		5.6794435,45.2017823,0.0 
+		5.6797117,45.2020809,0.0
+
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>Troncon 2</name>
+      <styleUrl>#redLine</styleUrl>
+      <LineString>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>
+		
+		5.659005,45.2078864,0.0 
+		5.659402,45.207792,0.0 
+		5.6599492,45.2078486,0.0 
+		5.6608772,45.208083,0.0 
+		5.6627065,45.2086839,0.0 
+		5.6633878,45.2089371,0.0 
+		5.6640851,45.2094568,0.0 
+		5.6651151,45.2105471,0.0 
+		5.6655335,45.2107134,0.0 
+		5.6658661,45.2106378,0.0 
+		5.6671429,45.2095494,0.0 
+		5.6673628,45.2093453,0.0 
+		5.6673092,45.2091865,0.0 
+		5.6674165,45.2090958,0.0 
+		5.6675988,45.2090996,0.0 
+		5.6677544,45.209213,0.0 
+		5.6678241,45.2093604,0.0 
+		5.6707209,45.2103128,0.0
+		
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>Troncon 3</name>
+      <styleUrl>#greenLine</styleUrl>
+      <LineString>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>
+		
+			5.6606573,45.2054222,0.0 
+			5.6613654,45.2052975,0.0 
+			5.6618375,45.205305,0.0 
+			5.6623739,45.2052257,0.0 
+			5.6635648,45.2048968,0.0 
+			5.6644017,45.2048968,0.0 
+			5.6650078,45.2049535,0.0 
+			5.6660324,45.2049875,0.0 
+			5.6666386,45.2049535,0.0 
+			5.6675828,45.2049951,0.0 
+			5.6686503,45.2049384,0.0 
+			5.6693423,45.2050745,0.0 
+			5.6702167,45.2053315,0.0 
+			5.6710106,45.2050367,0.0 
+			5.671488,45.2048742,0.0 
+			5.6724644,45.2049044,0.0 
+			5.6736928,45.2045756,0.0
+
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+  </Document>
+</kml>
